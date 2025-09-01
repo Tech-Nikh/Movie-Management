@@ -41,5 +41,15 @@ iii)ReDoc: http://127.0.0.1:8000/redoc
 
 The SQLite database file movies.db will be created automatically on first run.
 
+ Run Tests
+
+This project includes some unit tests. Run them with:
+
+pytest
+
+If you want detailed logs:
+
+pytest -vv
+
 
  
