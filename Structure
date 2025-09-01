@@ -1,0 +1,9 @@
+movie_api/
+├── main.py
+├── models.py
+├── service.py
+├── dao.py
+├── config.py
+├── test_main.py
+├── test_integration.py
+├── requirements.txt
