@@ -19,11 +19,11 @@ This project creates a Movie Management API that supports all CRUD operations, i
 
 Getting Started
  1) Clone & set up a virtual environment
-   # clone
+   # Clone
 git clone <your-repo-url>
 cd <your-repo-folder>
 
-# on Windows (PowerShell)
+# On Windows (PowerShell)
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
