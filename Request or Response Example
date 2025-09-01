@@ -1,0 +1,33 @@
+Request/Response Examples
+
+Create
+
+curl -X POST http://127.0.0.1:8000/movies \
+  -H "Content-Type: application/json" \
+  -d '{
+        "title": "Inception",
+        "director": "Christopher Nolan",
+        "releaseYear": 2010,
+        "genre": "Sci-Fi",
+        "rating": 8.8
+      }'
+
+
+List
+
+curl "http://127.0.0.1:8000/movies?skip=0&limit=100"
+
+Get by ID
+
+curl http://127.0.0.1:8000/movies/1
+
+Update
+
+curl -X PUT http://127.0.0.1:8000/movies/1 \
+  -H "Content-Type: application/json" \
+  -d '{"rating": 9.0}'
+
+Delete
+
+curl -X DELETE http://127.0.0.1:8000/movies/1
+
